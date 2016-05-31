@@ -77,6 +77,10 @@ public class LovelyCustomDialog extends AbsLovelyDialog<LovelyCustomDialog> {
         instanceStateManager.restoreInstanceState(savedState);
     }
 
+    View getCustomView() {
+        return addedView;
+    }
+
     @Override
     protected int getLayout() {
         return R.layout.dialog_custom;
