@@ -77,7 +77,7 @@ public class LovelyCustomDialog extends AbsLovelyDialog<LovelyCustomDialog> {
         instanceStateManager.restoreInstanceState(savedState);
     }
 
-    View getCustomView() {
+    public View getCustomView() {
         return addedView;
     }
 
